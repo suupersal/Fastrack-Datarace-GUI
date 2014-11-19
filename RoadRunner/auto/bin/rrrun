@@ -1,0 +1,4 @@
+#!/bin/bash
+           /usr/lib/jvm/java-7-oracle/jre/bin/java -version 
+                          echo 
+           /usr/lib/jvm/java-7-oracle/jre/bin/java -javaagent:/home/salvador/Documents/Project/SSJJJ-CS356/FastTrackGUI/finalGUI/RoadRunner/build/jar/rragent.jar $JVM_ARGS -Xbootclasspath/p:/home/salvador/Documents/Project/SSJJJ-CS356/FastTrackGUI/finalGUI/RoadRunner/classes:/home/salvador/Documents/Project/SSJJJ-CS356/FastTrackGUI/finalGUI/RoadRunner/jars/java-cup-11a.jar:$RR_TOOLPATH: rr.RRMain $*

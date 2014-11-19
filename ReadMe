@@ -1,0 +1,7 @@
+before anything you must do source msetup1.5
+
+to get stuff running you must compile the mainwindoncontroller.java file, then compile the FastTrackGUI.java and run the FastTrackGUI.
+
+you will notice a LAUNCHER script, ignore for now.
+
+FastTrackLauncher was used to start swing and had main method, but since we are using FX it will be replaced by the GUI and its methods will be sent to the right places.

@@ -1,0 +1,135 @@
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 1
+Blame:SimpleRace.b I
+Count: 1  Max: 100
+    Guard State: [W=(0:1) R=(0:4) CV=null]
+ Current Thread: [tid=1    cv=[00000002 01000002 00000000 00000000]   epoch=(1:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: read-by-thread-0
+         Cur Op: write-by-thread-1
+           Case: #2
+          Stack: Use -stacks to show stacks...
+=====================================================================
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 2
+Blame:SimpleRace.b I
+Count: 2  Max: 100
+    Guard State: [W=(1:2) R=(1:2) CV=null]
+ Current Thread: [tid=2    cv=[00000003 00000000 02000002 00000000]   epoch=(2:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: write-by-thread-1
+         Cur Op: write-by-thread-2
+           Case: #1
+          Stack: Use -stacks to show stacks...
+=====================================================================
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 2
+Blame:SimpleRace.b I
+Count: 3  Max: 100
+    Guard State: [W=(1:2) R=(1:2) CV=null]
+ Current Thread: [tid=2    cv=[00000003 00000000 02000002 00000000]   epoch=(2:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: read-by-thread-1
+         Cur Op: write-by-thread-2
+           Case: #2
+          Stack: Use -stacks to show stacks...
+=====================================================================
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 1
+Blame:SimpleRace.b I
+Count: 1  Max: 100
+    Guard State: [W=(0:1) R=(0:4) CV=null]
+ Current Thread: [tid=1    cv=[00000002 01000002 00000000 00000000]   epoch=(1:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: read-by-thread-0
+         Cur Op: write-by-thread-1
+           Case: #2
+          Stack: Use -stacks to show stacks...
+=====================================================================
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 2
+Blame:SimpleRace.b I
+Count: 2  Max: 100
+    Guard State: [W=(1:2) R=(1:2) CV=null]
+ Current Thread: [tid=2    cv=[00000003 00000000 02000002 00000000]   epoch=(2:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: write-by-thread-1
+         Cur Op: write-by-thread-2
+           Case: #1
+          Stack: Use -stacks to show stacks...
+=====================================================================
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 2
+Blame:SimpleRace.b I
+Count: 3  Max: 100
+    Guard State: [W=(1:2) R=(1:2) CV=null]
+ Current Thread: [tid=2    cv=[00000003 00000000 02000002 00000000]   epoch=(2:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: read-by-thread-1
+         Cur Op: write-by-thread-2
+           Case: #2
+          Stack: Use -stacks to show stacks...
+=====================================================================
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 1
+Blame:SimpleRace.b I
+Count: 1  Max: 100
+    Guard State: [W=(0:1) R=(0:4) CV=null]
+ Current Thread: [tid=1    cv=[00000002 01000002 00000000 00000000]   epoch=(1:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: read-by-thread-0
+         Cur Op: write-by-thread-1
+           Case: #2
+          Stack: Use -stacks to show stacks...
+=====================================================================
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 2
+Blame:SimpleRace.b I
+Count: 2  Max: 100
+    Guard State: [W=(1:2) R=(1:2) CV=null]
+ Current Thread: [tid=2    cv=[00000003 00000000 02000002 00000000]   epoch=(2:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: write-by-thread-1
+         Cur Op: write-by-thread-2
+           Case: #1
+          Stack: Use -stacks to show stacks...
+=====================================================================
+ 
+====================== Error Report =================================
+FastTrack
+Thread: 2
+Blame:SimpleRace.b I
+Count: 3  Max: 100
+    Guard State: [W=(1:2) R=(1:2) CV=null]
+ Current Thread: [tid=2    cv=[00000003 00000000 02000002 00000000]   epoch=(2:2)]
+          Class: SimpleRace
+          Field: null.SimpleRace.b I
+        Prev Op: read-by-thread-1
+         Cur Op: write-by-thread-2
+           Case: #2
+          Stack: Use -stacks to show stacks...
+=====================================================================

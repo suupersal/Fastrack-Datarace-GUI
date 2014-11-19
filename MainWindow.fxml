@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane"  prefHeight="600.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml" fx:controller="MainWindowController">
+    <children>
+        <Label layoutX="10" layoutY="10" text="FastTrack" fx:id="title"/>  
+        
+        <Label layoutX="10" layoutY="80" text="Select Tool:"/>   
+        <Label layoutX="10" layoutY="100" text="FastTrack"/>   
+        <RadioButton layoutX="120" layoutY="100" onAction="#selectToolFT" fx:id="fastTrackRadioButton"/>
+        <Label layoutX="10" layoutY="120" text="FastTrack CAS"/>
+        <RadioButton layoutX="120" layoutY="120" onAction="#selectToolFTCAS" fx:id="fastTrackCASRadioButton"/>
+        
+        <Label layoutX="10" layoutY="160" text="Select .java File"/>   
+        <Button layoutX="10" layoutY="180" text="Select File" onAction="#selectFile" fx:id="selectFileButton" />
+        
+     
+        
+        <Label layoutX="10" layoutY="280" text="Array Mode:"/>
+        <Label layoutX="10" layoutY="300" text="None"/>
+        <RadioButton layoutX="120" layoutY="300" onAction="#selectArrayNone" fx:id="arrayNoneRadio"/>
+        <Label layoutX="10" layoutY="320" text="Fine"/>
+        <RadioButton layoutX="120" layoutY="320" onAction="#selectArrayFine" fx:id="arrayFineRadio"/>
+        <Label layoutX="10" layoutY="340" text="Course"/>
+        <RadioButton layoutX="120" layoutY="340" onAction="#selectArrayCourse" fx:id="arrayCourseRadio"/>
+        <Label layoutX="10" layoutY="360" text="Special"/>
+        <RadioButton layoutX="120" layoutY="360" onAction="#selectArraySpecial" fx:id="arraySpecialRadio"/>
+        
+        <Button layoutX="10" layoutY="400" text="Run" onAction="#runFastTrack" fx:id="runTestButton" />
+        
+        <TextArea layoutX="180" layoutY="20"   prefHeight="560" prefWidth="800" fx:id="outputArea"/> 
+    </children>
+</AnchorPane>

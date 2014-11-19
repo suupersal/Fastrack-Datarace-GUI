@@ -1,0 +1,4 @@
+source msetup1.5
+javac MainWindowController.java
+Javac FastTrackGUI.java
+java  FastTrackGUI
